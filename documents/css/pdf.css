@@ -1,0 +1,18 @@
+.address-box {
+  background: white;
+  width: 400px;
+  display: inline-block;
+  min-height: 80px;
+  border: 1px solid black;
+  margin: -2px;
+  margin-right: -1.5px;
+}
+
+.address-box p {
+  margin: 0px;
+}
+
+.row {
+  display: block;
+  height: auto;
+}

@@ -1,0 +1,24 @@
+{
+  "extends": ["react-app", "airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    // Common rules
+    "prettier/prettier": "error",
+    "no-unused-vars": ["warn", { "argsIgnorePattern": "$" }],
+    "no-console": "warn",
+    "func-names": "off",
+    "no-process-exit": "off",
+    "object-shorthjand": "off",
+    "class-methods-use-this": "off",
+    "no-underscore-dangle": ["warn", { "allow": ["_id"] }],
+    "no-shadow": "off",
+    // jsx
+    "jsx-a11y/label-has-for": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    // React rules
+    "react/prefer-stateless-function": "off",
+    "react/jsx-filename-extension": "off",
+    "react/destructuring-assignment": "off",
+    "react/jsx-one-expression-per-line": "off"
+  }
+}
